@@ -1,6 +1,6 @@
 # Nightwatch on the VIEWE UEDX24320028E-WB-A
 
-This repository now includes a PlatformIO firmware target for the 240×320 VIEWE ESP32-S3 display. It uses the manufacturer's supported board definition and LVGL v8. The LVGL Editor XML remains in `screens/digital-nightwatch/`; PlatformIO compiles the corresponding native LVGL UI in `src/main.cpp` (the XML is not compiled directly).
+This repository now includes a PlatformIO firmware target for the 240×320 VIEWE ESP32-S3 display. It uses the manufacturer's supported board definition and LVGL v8. The LVGL Editor XML remains in `screens/digital_nightwatch/`; PlatformIO compiles the corresponding native LVGL UI in `src/main.cpp` (the XML is not compiled directly).
 
 The small battery, step, voltage, and compass values are explicitly demo placeholders; this board has no built-in sensors for those values. The clock starts at 12:45 and advances using elapsed uptime, so it is a UI test rather than a real-time clock.
 
