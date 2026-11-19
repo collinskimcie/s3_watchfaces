@@ -1,4 +1,4 @@
-<project>
+<project name="s3_watchfaces" lvgl_version="9.4.0">
     <targets>
         <target name="target1">
             <display width="240" height="320" radius="36" />
