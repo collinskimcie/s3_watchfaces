@@ -3,3 +3,5 @@ preview-bin
 lved-cli.js
 lvgl-resources.zip
 .pio/
+preview-bin/
+preview-build/
